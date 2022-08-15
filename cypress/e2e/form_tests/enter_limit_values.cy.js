@@ -1,4 +1,4 @@
-it('Enter limit values', () => {
+it('Limit values', () => {
     cy.visit('https://dev-pc.powercode.pro/');
     cy.viewport(1920, 1280)
     const random = (length = 8, chars = 'abcdefghijklmnopqrstuvwxyz') => {
